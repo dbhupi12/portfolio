@@ -118,8 +118,9 @@ nav {display: none;}
 
     .intro__img {
         grid: img;
-        max-width: 250px;
+        max-width: 350px;
         position: relative;
+        /* align-self: center; */
         z-index: 2;
     }
 
@@ -127,10 +128,10 @@ nav {display: none;}
         align-self: start;
         grid-column: -1/1;
         grid-row: 2;
-        text-align: right;
+        text-align: left;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        right: -1em;
+        width: calc(100% + 1em);
     }
 }
 
