@@ -12,21 +12,25 @@
     href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css"
     />
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="img/aaaa.jpg" alt = "">
+            <img src="img/logo.png" alt = "">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -40,6 +44,70 @@
     </section>
 
     <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Write details here.........</p>
+            </div>
+            <div class="service">
+                <h3>Software Engineering</h3>
+                <p>Write details here.........</p>
+            </div>
+            <div class="service">
+                <h3>Data Science</h3>
+                <p>Write details here.........</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
 
+    <!--About me-->
+    <section class="about--me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+
+            <img src="img/aaaa.jpg" alt="Bhupender Dhaka">
+        </div>
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="Work">
+        <h2 class="section__title">
+
+        </h2>
+        <p class="section_subtitle"></p>
+
+        <div class="protfolio">
+            <a href="#" class="protfolio__item">
+                <img src="img/aaaa.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="protfolio__item">
+                <img src="img/aaaa.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="protfolio__item">
+                <img src="img/aaaa.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="protfolio__item">
+                <img src="img/aaaa.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="mailto:bhupenderdhaka226@gmail.com" class="footer__link">bhupenderdhaka226@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class=" social-list__link" href="#">a</a></li>
+            <li class="social-list__item"><a class=" social-list__link" href="#">a</a></li>
+            <li class="social-list__item"><a class=" social-list__link" href="#">a</a></li>
+            <li class="social-list__item"><a class=" social-list__link" href="#">a</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
