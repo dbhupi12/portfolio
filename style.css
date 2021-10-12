@@ -43,6 +43,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    background-color: rgba(255, 182, 193, 0.164);
     /* background-color: rgba(255, 182, 193, 0.322); */
 }
 
@@ -195,7 +196,7 @@ header {
 
 .intro {
     position: relative;
-    background-color: rgba(255, 182, 193, 0.164);
+    /* background-color: rgba(255, 182, 193, 0.164); */
 }
 
 .intro__img {
